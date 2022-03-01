@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> My MyBook</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web HTML Alterra</title>
+  </head>
+  <body>
+  </p>
+  <h1>Buat Account Baru!</h1>
+  <h2>Sign Up Form</h2>
+    <div id="form-container">
+      <form onsubmit="handleSubmit()">
+        <div class="input-group">
+          <label for="input-name">Nama</label> <br>
+          <input id="input-name" type="text" />
+        </div>
+        <div class="input-group">
+          <label for="input-password">Kata Sandi</label> <br>
+          <input id="input-password" type="password" />
+        </div>
+        <div class="input-group"> <br>
+          <label for="input-gender">Gender</label> <br>
+     
+          <input type="radio" id="male" name="input-gender" value="male" />
+          <label for="female">Pria</label> <br>
+          <input type="radio" id="female" name="input-gender" value="female" />
+          <label for="other">Wanita</label> <br>
+          <input type="radio" id="other" name="input-gender" value="other" />
+          <label for="other">Other</label> <br>
+        </div> <br>
+
+        <div class="input-group">
+          <label for="input-regency">Nasionality</label>
+          <select name="regencies" id="input-regency">
+            <option value="gianyar">Indonesia</option>
+            <option value="denpasar">Australia</option>
+            <option value="badung">Singapura</option>
+            <option value="tabanan">Thailand</option>
+          </select>
+        </div>
+        <div>
+          <br>
+          <legend>Language Spoken:</legend>
+          <input type="checkbox" id="indo" name="indo" value="indo">
+          <label for="indo"> Indonesian</label><br>
+          <input type="checkbox" id="eng" name="eng" value="eng">
+          <label for="eng"> English</label><br>
+          <input type="checkbox" id="other" name="other" value="other">
+          <label for="other"> Others</label>
+      </div>
+      <br>
+        <div class="input-group">
+          <label for="input-advice">Bio</label>
+          <br>
+          <textarea id="input-advice" name="input-advice"></textarea>
+        </div>
+        <div class="input-group">
+          <a href="welcome.html"><input type="button" value="Sumbit"></a>
+        </div>
+      </form>
+    </div>
+    </div>
+  </body>
+</html>
